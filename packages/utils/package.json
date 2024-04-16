@@ -1,0 +1,23 @@
+{
+  "name": "@smart-track/utils",
+  "version": "1.0.0",
+  "author": "South Smart FE",
+  "license": "ISC",
+  "description": "",
+  "main": "src/index.ts",
+  "module": "dist/index.esm.js",
+  "publishConfig": {
+    "main": "dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/ua-parser-js": "^0.7.36",
+    "ua-parser-js": "1.0.32",
+    "@smart-track/common": "workspace:*",
+    "@smart-track/core": "workspace:*",
+    "@smart-track/types": "workspace:*"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@smart-track/performance",
+  "version": "1.0.0",
+  "author": "South Smart FE",
+  "license": "ISC",
+  "description": "",
+  "main": "src/index.ts",
+  "module": "dist/index.esm.js",
+  "publishConfig": {
+    "main": "dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@smart-track/common": "workspace:*",
+    "@smart-track/types": "workspace:*",
+    "@smart-track/utils": "workspace:*",
+    "web-vitals": "^3.1.0"
+  }
+}
